@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>じゃんけん</title>
+</head>
+<body>
+  <h1>じゃんけんゲーム</h1>
+  <form action="/janken" method="POST">
+    <label for="hand">出す手を選択:</label>
+    <select id="hand" name="hand" required>
+      <option value="グー">グー</option>
+      <option value="チョキ">チョキ</option>
+      <option value="パー">パー</option>
+    </select>
+    <input type="hidden" name="win" value="0">
+    <input type="hidden" name="total" value="0">
+    <button type="submit">勝負！</button>
+  </form>
+</body>
+</html>

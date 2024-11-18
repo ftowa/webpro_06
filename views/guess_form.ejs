@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>数当てゲーム</title>
+</head>
+<body>
+    <h1>数当てゲーム</h1>
+    <p>1〜10の間で数を当ててください！</p>
+    <form action="/guess" method="POST">
+        <label for="number">数字を入力:</label>
+        <input type="number" id="number" name="number" min="1" max="10" required>
+        <input type="hidden" name="win" value="<%= win %>">
+        <input type="hidden" name="attempts" value="<%= attempts %>">
+        <button type="submit">送信</button>
+    </form>
+</body>
+</html>
