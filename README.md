@@ -2,6 +2,8 @@
 
 ### GithubのURL
 
+`https://github.com/ftowa/webpro_06.git`
+
 ### 起動方法
 ターミナルでwpro/webpro_06を開く.
 webpro_06ファイル内のターミナルで`node app5.js`と打ち，サーバーを起動する．
